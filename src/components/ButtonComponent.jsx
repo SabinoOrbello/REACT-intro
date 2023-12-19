@@ -1,9 +1,11 @@
 import React from "react";
 
-const ButtonComponent = (props) => {
+const ButtonComponent = (props) => (
   <>
-    <button>{props.content}</button>
-  </>;
-};
+    <button style={props.style} className={props.className}>
+      {props.content}
+    </button>
+  </>
+);
 
 export default ButtonComponent;
