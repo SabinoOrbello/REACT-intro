@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import ButtonComponent from "./components/ButtonComponent";
+import ImageComponent from "./components/ImageComponent";
 
 function App() {
   return (
@@ -16,6 +17,11 @@ function App() {
           Learn React
         </a>
         <ButtonComponent content="Premi il tasto" style={{ padding: "1rem", borderRadius: "50px" }} className="" />
+        <ImageComponent
+          src="https://static.kodami.it/wp-content/uploads/sites/31/2020/12/iStock-108226626.jpg"
+          alt="gatto"
+          style={{ width: "100px", marginTop: "1.5rem" }}
+        />
       </header>
     </div>
   );
